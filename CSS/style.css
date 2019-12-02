@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+.top-nav-bar {
+    height: 57px;
+    top: 0;
+    position: sticky;
+    background: #fdfefe;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f48fb1;
+    z-index: 2;
+}
+
+.logo {
+    width: 175px;
+    height: 38px;
+    margin: 6px 10px;
+}
+
+.form-control {
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid #f48fb1 !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+
+}
+
+.imput-group-text {
+    background: #f48fb1;
+    border: 1px solid #f48fb1 !important;
+    margin: 8.5px 10px 3px 0 !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+    
+}
+
+.serch-box {
+    display: inline-flex;
+    width: 60%;
+}
+
+.fa-search {
+    color: #000000;
+}
+
+.menu-bar {
+    width: 40%;
+    height: 57px;
+    float: right;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    float: right;
+}
+
+.menu-bar ul li {
+    border-left: 1px solid #fdfefe;
+    list-style: none;
+    padding: 15px 35px;
+    text-align: center;
+    background-color: #f48fb1;
+    cursor: pointer;
+}
+
+.menu-bar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fdfefe;
+    text-decoration: none;
+}
+
+.fa-shopping-basket {
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 980px) {
+    .top-nav-bar {
+        height: 118px;
+        border-bottom: 0;
+    }
+    .serch-box {
+        width: 100%;
+    }
+    .menu-bar {
+        width: 100%;
+    }
+    .menu-bar ul {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .menu-bar ul li {
+        height: 57px;
+        width: 100%;
+    }
+}
+
+/*Side-menu*/
+
+.side-menu {
+    height: 79%;
+    width: 15%;
+    font-size: 14px;
+    float: left;
+    z-index: 2;
+    background-color: #bdbdbd;
+}
+
+.side-menu ul {
+    margin-left: 10px;
+}
+
+.side-menu ul li {
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+ 
+.side-menu ul li:hover {
+    color: #f48fb1;
+}
+
+.side-menu ul li ul {
+    display: none;
+    z-index: 10;
+    top: 77px;
+}
