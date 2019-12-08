@@ -1,3 +1,91 @@
+/*import fonts from google fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Anton|Great+Vibes|Lato|Nanum+Gothic|Ubuntu&display=swap');
+
+:root {
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --ubuntu: "Ubuntu", sans-serif;
+    --greate-vibes: "Greate Vibes", cursive;
+    --acme: "Acme", sans-serif;
+    --nanum: "Nanum Gothic", sans-serif;
+    --anton: "Anton", sans-serif;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.bg-primary-color {
+    background-color: var(--primary-color) !important;
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.font-ubuntu {
+    font-family: var(--ubuntu);
+}
+
+.lightblue {
+    color: lightblue;
+}
+/*header*/
+
+header {
+    background-color: var(--primary-color);
+    font-family: var(--ubuntu);
+}
+
+header .site-title {
+    font-family: 'Great Vibes', cursive;
+}
+
+.container .dropdown-toggle, .container .dropdown-item {
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+/*Navigation Menu*/
+
+.navbar-nav {
+    padding: 0.8em 0em;
+}
+
+.navbar-nav .nav-link {
+    font-size: 0.9em;
+    color: var(--light-gray)!important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 0 1.3em;
+}
+
+.navbar-nav .basket-icon {
+    margin-right: 6.5rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 *
 {
     margin: 0;
@@ -108,9 +196,9 @@ body {
         height: 57px;
         width: 100%;
     }
-}
+}*/
 
-/*Side-menu*/
+/*Side-menu
 
 .side-menu {
     height: 79%;
@@ -140,4 +228,4 @@ body {
     display: none;
     z-index: 10;
     top: 77px;
-}
+}*/
